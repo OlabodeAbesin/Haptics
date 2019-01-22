@@ -1,0 +1,37 @@
+.laogo a img {
+  margin-left: -6.5%;
+  height: 60px;
+  width: 187px;
+}
+
+label span {
+  color: red;
+}
+
+.row {
+  margin: 5% 0;
+}
+
+.show {
+  display: none;
+  visibility: hidden
+}
+
+@media screen and (max-width: 768px) {
+  .laogo a img {
+    position: relative;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%);
+  }
+
+  .row .col-md-6:first-child {
+    display: none;
+    visibility: hidden;
+  }
+
+  .show {
+    display: inline-block;
+    visibility: visible;
+  }
+}
